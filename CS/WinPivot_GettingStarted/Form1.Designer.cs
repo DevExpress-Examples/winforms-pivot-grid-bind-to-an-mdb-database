@@ -25,12 +25,12 @@
         private void InitializeComponent() {
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
             this.nwindDataSet1 = new WinPivot_GettingStarted.nwindDataSet();
-            this.salesPersonTableAdapter1 = new WinPivot_GettingStarted.nwindDataSetTableAdapters.SalesPersonTableAdapter();
             this.fieldCategoryName1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldCountry1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldExtendedPrice1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldProductName1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldSalesPerson1 = new DevExpress.XtraPivotGrid.PivotGridField();
+            this.salesPersonTableAdapter1 = new WinPivot_GettingStarted.nwindDataSetTableAdapters.SalesPersonTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nwindDataSet1)).BeginInit();
             this.SuspendLayout();
@@ -49,17 +49,13 @@
             this.pivotGridControl1.Location = new System.Drawing.Point(0, 0);
             this.pivotGridControl1.Name = "pivotGridControl1";
             this.pivotGridControl1.OptionsData.DataProcessingEngine = DevExpress.XtraPivotGrid.PivotDataProcessingEngine.LegacyOptimized;
-            this.pivotGridControl1.Size = new System.Drawing.Size(836, 529);
+            this.pivotGridControl1.Size = new System.Drawing.Size(784, 561);
             this.pivotGridControl1.TabIndex = 0;
             // 
             // nwindDataSet1
             // 
             this.nwindDataSet1.DataSetName = "nwindDataSet";
             this.nwindDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // salesPersonTableAdapter1
-            // 
-            this.salesPersonTableAdapter1.ClearBeforeFill = true;
             // 
             // fieldCategoryName1
             // 
@@ -96,11 +92,15 @@
             this.fieldSalesPerson1.FieldName = "Sales Person";
             this.fieldSalesPerson1.Name = "fieldSalesPerson1";
             // 
+            // salesPersonTableAdapter1
+            // 
+            this.salesPersonTableAdapter1.ClearBeforeFill = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 529);
+            this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.pivotGridControl1);
             this.Name = "Form1";
             this.Text = "Form1";
