@@ -18,7 +18,7 @@ The example demonstrates how to bind the Pivot Grid to the Northwind database at
 
 ## Documentation
 
-- [Binding to Data](https://docs.devexpress.devx/WindowsForms/1842/controls-and-libraries/pivot-grid/binding-to-data)
+- [Binding to Data](https://docs.devexpress.com/WindowsForms/1842/controls-and-libraries/pivot-grid/binding-to-data)
 
 ## More Examples
 
